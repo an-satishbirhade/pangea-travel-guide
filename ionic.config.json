@@ -1,0 +1,7 @@
+{
+  "name": "pangea-travel-guide",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
