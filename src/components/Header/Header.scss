@@ -1,0 +1,20 @@
+.header {
+  text-align: center;
+  background: #504c4c;
+
+  .vline {
+    color: var(--ion-color-tertiary);
+  }
+
+  .btn {
+    color: var(--ion-color-light);
+    font-weight: bold;
+    font-size: 1rem;
+
+    btn:hover {
+      --background: var(--ion-color-light);
+      color: var(--ion-color-dark);
+    }
+  }
+
+}

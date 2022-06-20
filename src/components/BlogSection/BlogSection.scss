@@ -1,0 +1,37 @@
+.container {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../assets/blogsectionbg.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .blogimage {
+    margin: 10% 0;
+  }
+
+  .blogsection {
+    padding-left: 5%;
+    margin: 5% 0;
+
+    .legend {
+      font-size: 3rem;
+      color: white;
+      width: 30rem;
+    }
+
+    .desc {
+      text-align: start;
+      color: white;
+    }
+
+    .btn {
+      margin: 5% 0;
+      text-transform: none;
+      --background: white;
+      color: #4ab7ed;
+      width: 15rem;
+      font-size: 1rem;
+      height: 2.5rem;
+    }
+  }
+}

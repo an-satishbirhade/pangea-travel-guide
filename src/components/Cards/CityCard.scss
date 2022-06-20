@@ -1,0 +1,23 @@
+.card {
+  .cityimage {
+    height: 250px;
+    width: 100%;
+  }
+
+  .cityname {
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  .btn {
+    margin: 1rem 0;
+    text-transform: none;
+    padding-left: 0.5rem;
+    --background: #4ab7ed;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}

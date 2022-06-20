@@ -1,24 +1,28 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import { IonContent, IonPage } from '@ionic/react';
 import './Home.css';
-
+import Header from '../components/Header/Header';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
+import { useState } from 'react';
+import Container from './Containers/Container';
 const Home: React.FC = () => {
+  const [parentSegment, setSegment] = useState('Home');
+
+  const getChildSegment = (segment: string) => {
+    setSegment(segment);
+  }
+  {
+    console.log(parentSegment);
+  }
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
+      <IonContent fullscreen={true}>
+        <Header />
+        <Navbar setParentSegment={getChildSegment} />
+        <Container setSegment={parentSegment} />
+        <Footer />
       </IonContent>
-    </IonPage>
+    </IonPage >
   );
 };
 

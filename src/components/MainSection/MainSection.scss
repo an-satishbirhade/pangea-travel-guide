@@ -1,0 +1,84 @@
+.main {
+  background: url('../../assets/mountains.png') no-repeat center center fixed/cover;
+  position: relative;
+
+  .legend {
+    font-size: 3.6rem;
+    color: var(--ion-color-light);
+    text-transform: uppercase;
+    overflow-wrap: normal;
+  }
+
+  .mtop {
+    margin-top: 5%;
+  }
+
+  .explore-btn {
+    font-size: 1.5rem;
+    height: 3.5rem;
+    margin: 7% 0;
+  }
+
+  .segments {
+    ion-segment-button {
+      margin-left: 0.5rem;
+      width: 20%;
+      color: white;
+      --indicator-color: green;
+      --indicator-height: 4px;
+      --background: rgba(0, 0, 0, 0.5);
+      --background-checked: #4ab7ed;
+    }
+
+    ion-segment-button:hover {
+      --background: #0855c9;
+      --color-hover: #ffffff;
+    }
+  }
+}
+
+// .main {
+//   background: url('../../assets/mountains.png') no-repeat center center fixed/cover;
+//   position: relative;
+
+//   .mtop {
+//     margin-top: 5%;
+
+//     .legend {
+//       font-size: 3.6rem;
+//       color: var(--ion-color-light);
+//       text-transform: uppercase;
+//       overflow-wrap: normal;
+//     }
+
+//     .explore-btn {
+//       font-size: 1.5rem;
+//       height: 3.5rem;
+//       margin: 7% 0;
+//     }
+//   }
+
+//   .segments {
+//     margin-left: 10%;
+
+//     ion-segment-button {
+//       margin-right: 0.5rem;
+//       color: white;
+//       --indicator-color: green;
+//       --indicator-height: 4px;
+//       --background: rgba(0, 0, 0, 0.5);
+//       --background-checked: #4ab7ed;
+//     }
+
+//     ion-segment-button:hover {
+//       --background: #0855c9;
+//       --color-hover: #ffffff;
+//     }
+//   }
+// }
+
+// .segmentsdata {
+//   position: absolute;
+//   bottom: 0;
+//   background-color: #4ab7ed;
+// }

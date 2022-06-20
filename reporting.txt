@@ -1,0 +1,2 @@
+Performed lifting state up example by creating todo list app.
+Read and Performed maintain state globally using useState hook in react.
