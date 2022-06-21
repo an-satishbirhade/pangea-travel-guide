@@ -5,7 +5,7 @@ interface IDestinationProps {
 
 const Destination: React.FunctionComponent<IDestinationProps> = (props) => {
   return (
-    <Destinations />
+    <h1>Destinations Works</h1>
   )
 };
 

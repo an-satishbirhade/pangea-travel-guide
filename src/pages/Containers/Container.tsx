@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Main from './Main';
-import Destination from './Destinations';
+import Destinations from './Destinations';
 import Booking from './Bookings';
 import Blog from './Blogs';
 import Contact from './ContactUs';
@@ -14,7 +14,7 @@ const Container: React.FC<IContainerProps> = ({ setSegment }) => {
       return <Main />;
     }
     if (setSegment === 'Destinations') {
-      return <Destination />;
+      return <Destinations />;
     }
     if (setSegment === 'Bookings') {
       return <Booking />;

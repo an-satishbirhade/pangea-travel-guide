@@ -4,7 +4,7 @@ interface IThirdProps {
 }
 
 const Third: React.FunctionComponent<IThirdProps> = () => {
-  const Name = React.useContext(DemoContext)
+  const Name = React.useContext(DemoContext);
   return (
     <h1>Name in Third {Name}</h1>
   )

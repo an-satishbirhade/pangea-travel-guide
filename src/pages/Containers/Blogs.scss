@@ -1,0 +1,24 @@
+.blogs {
+  text-align: center;
+
+  .heading {
+    font-size: 3.5rem;
+    color: var(--ion-color-medium);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+  }
+
+  .blogs-grid {
+    margin: auto;
+    width: 90%;
+  }
+
+  .content {
+    color: var(--ion-color-medium);
+    margin-top: 1rem;
+    margin: auto;
+    width: 65%;
+    font-size: 1.5rem;
+  }
+}

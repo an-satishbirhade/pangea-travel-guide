@@ -89,7 +89,7 @@ const Flights: React.FunctionComponent<IFlightsProps> = (props) => {
             <IonPopover showBackdrop={false} trigger='toggle2'>
               <IonContent >
                 <Selector title='adults' />
-                <Selector title='Childres' />
+                <Selector title='Childs' />
                 <Selector title='Infants' />
               </IonContent>
             </IonPopover>

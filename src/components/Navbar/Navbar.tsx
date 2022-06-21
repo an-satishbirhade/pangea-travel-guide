@@ -16,7 +16,7 @@ const Navbar: React.FC<INavbarProps> = ({ setParentSegment }) => {
           <IonImg className='logo' src={logo} alt="Travel-Guide-Logo" />
         </IonCol>
         <IonCol sizeSm='12' sizeMd='8' className='segments ion-padding-horizontal'>
-          <IonSegment value={segment} scrollable onIonChange={(e) => {
+          <IonSegment scrollable value={segment} onIonChange={(e) => {
             setSegment(e.detail.value as any)
             setParentSegment(e.detail.value as string)
           }}>
