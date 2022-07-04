@@ -2,7 +2,6 @@ import { IonButton, IonCol, IonGrid, IonIcon, IonLabel, IonRow, IonSegment, IonS
 import * as React from 'react';
 import './MainSection.scss';
 import { airplaneSharp, arrowForwardOutline, bedSharp, carSportSharp, storefrontSharp, walkSharp } from 'ionicons/icons';
-import Hotels from '../Selectors/Hotels';
 import Selectors from '../Selectors/Selectors';
 interface IMainSectionProps {
 }
